@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: '금융상품 비교분석',
+  tagline: '핀프로덕트 = 핀(Fin, Finance, 금융) + 프로덕트(상품)',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -8,7 +8,7 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: '핀프로덕트',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
