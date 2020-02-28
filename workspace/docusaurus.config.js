@@ -10,17 +10,17 @@ module.exports = {
     navbar: {
       title: '핀프로덕트',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'FinProduct',
         src: 'img/logo.svg',
       },
       links: [
-        {to: 'docs/doc1', label: 'Docs', position: 'left'},
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
+        {to: 'docs/doc1', label: '상품비교', position: 'left'},
+        {to: 'blog', label: '상품분석', position: 'left'},
+        // {
+        //   href: 'https://github.com/facebook/docusaurus',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
