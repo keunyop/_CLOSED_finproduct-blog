@@ -16,11 +16,11 @@ module.exports = {
       links: [
         {to: 'docs/doc1', label: '상품비교', position: 'left'},
         {to: 'blog', label: '상품분석', position: 'left'},
-        // {
-        //   href: 'https://github.com/facebook/docusaurus',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
+        {
+          href: 'https://github.com/keunyop/finproduct-blog',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
     footer: {
