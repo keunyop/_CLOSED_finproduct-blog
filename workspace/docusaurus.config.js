@@ -14,8 +14,9 @@ module.exports = {
         src: 'img/logo.svg',
       },
       links: [
-        {to: 'docs/doc1', label: '상품비교', position: 'left'},
+        {to: 'docs/doc1', label: '상품검색', position: 'left'},
         {to: 'blog', label: '상품분석', position: 'left'},
+        {to: 'dictionary', label: '금융용어사전', position: 'left'},
         {
           href: 'https://github.com/keunyop/finproduct-blog',
           label: 'GitHub',

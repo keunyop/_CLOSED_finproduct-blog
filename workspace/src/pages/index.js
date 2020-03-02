@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>금융상품 비교</>,
+    title: <>금융상품 검색</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
@@ -28,7 +28,7 @@ const features = [
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>금융용어 사전</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
@@ -72,7 +72,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/doc1')}>
-              상품비교
+              상품검색
             </Link>
             &nbsp;&nbsp;&nbsp;
             <Link
@@ -82,6 +82,15 @@ function Home() {
               )}
               to={useBaseUrl('blog')}>
               상품분석
+            </Link>
+            &nbsp;&nbsp;&nbsp;
+            <Link
+              className={classnames(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('blog')}>
+              금융용어사전
             </Link>
           </div>
         </div>
