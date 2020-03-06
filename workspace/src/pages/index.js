@@ -72,7 +72,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/doc1')}>
-              상품검색
+              금융상품검색
             </Link>
             &nbsp;&nbsp;&nbsp;
             <Link
@@ -81,7 +81,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('blog')}>
-              상품분석
+              금융상품분석
             </Link>
             &nbsp;&nbsp;&nbsp;
             <Link
