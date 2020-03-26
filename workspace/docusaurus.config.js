@@ -1,11 +1,11 @@
 module.exports = {
   title: '금융상품 비교분석',
   tagline: '핀프로덕트 = 핀(Fin, Finance, 금융) + 프로덕트(상품)',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://keunyop.github.io/finproduct-blog',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'keunyop', // Usually your GitHub org/user name.
+  projectName: 'finproduct-blog', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: '핀프로덕트',
