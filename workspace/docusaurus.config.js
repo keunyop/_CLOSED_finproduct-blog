@@ -1,6 +1,6 @@
 module.exports = {
-  title: '금융상품 비교분석',
-  tagline: '핀프로덕트 = 핀(Fin, Finance, 금융) + 프로덕트(상품)',
+  title: '핀(Fin, Finance, 금융) + 프로덕트(상품)',
+  tagline: '다양한 옵션을 쉽게 비교하여 최고의 금융 상품을 찾으세요.',
   url: 'https://keunyop.github.io/finproduct-blog',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
