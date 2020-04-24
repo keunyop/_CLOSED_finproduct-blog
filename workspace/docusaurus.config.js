@@ -17,11 +17,6 @@ module.exports = {
         {to: 'docs/doc1', label: '금융상품검색', position: 'left'},
         {to: 'blog', label: '금융상품분석', position: 'left'},
         {to: 'dictionary', label: '금융용어사전', position: 'left'},
-        {
-          href: 'https://github.com/keunyop/finproduct-blog',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
