@@ -3,7 +3,7 @@ module.exports = {
   tagline: '다양한 옵션을 쉽게 비교하여 최고의 금융 상품을 찾으세요.',
   url: 'https://keunyop.github.io/finproduct-blog',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/FP_logo.ico',
   organizationName: 'keunyop', // Usually your GitHub org/user name.
   projectName: 'finproduct-blog', // Usually your repo name.
   themeConfig: {
@@ -11,7 +11,7 @@ module.exports = {
       title: '핀프로덕트',
       logo: {
         alt: 'FinProduct',
-        src: 'img/logo.svg',
+        src: 'img/FP_logo.svg',
       },
       links: [
         {to: 'docs/doc1', label: '금융상품검색', position: 'left'},
