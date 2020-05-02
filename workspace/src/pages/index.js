@@ -1,112 +1,149 @@
 import React from 'react';
-import classnames from 'classnames';
-import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+
+// import Image from '@theme/IdealImage';
+import Layout from '@theme/Layout';
+
+import classnames from 'classnames';
+
 import styles from './styles.module.css';
-
-const features = [
-  {
-    title: <>금융상품 검색</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: <>금융상품 분석</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: <>금융용어 사전</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-];
-
-function Feature({ imageUrl, title, description }) {
-  const imgUrl = useBaseUrl(imageUrl);
-  return (
-    <div className={classnames('col col--4', styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </div>
-  );
-}
 
 function Home() {
   const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
+  const { siteConfig: { customFields = {}, tagline } = {} } = context;
+
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <header className={classnames('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={classnames(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/doc1')}>
-              금융상품검색
-            </Link>
-            &nbsp;&nbsp;&nbsp;
-            <Link
-              className={classnames(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('blog')}>
-              금융상품분석
-            </Link>
-            &nbsp;&nbsp;&nbsp;
-            <Link
-              className={classnames(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('blog')}>
-              금융용어사전
-            </Link>
+      permalink="/"
+      title={tagline}
+      description={customFields.description}>
+      <main>
+        <div className={styles.hero}>
+          <div className={styles.heroInner}>
+            <img
+              alt="Docusaurus with Keytar"
+              className={styles.heroLogo}
+              src={useBaseUrl('img/FP_logo.png')}
+            />
+            <h1 className={styles.heroProjectTagline}>
+              <span className={styles.heroProjectKeywords}>핀</span>
+              (Fin, Finance, 금융)
+            </h1>
+            <h1 className={styles.heroProjectTagline}>
+              +
+              <span className={styles.heroProjectKeywords}>프로덕트</span>
+              (상품)
+            </h1>
+            <p className={styles.heroProjectSubTitle}>
+              {tagline}
+            </p>
+            <div className={styles.indexCtas}>
+              <Link
+                className={styles.indexCtasGetStartedButton}
+                to={useBaseUrl('docs/introduction')}>
+                금융상품검색
+              </Link>
+              <Link
+                className={styles.indexCtasGetStartedButton}
+                to={useBaseUrl('docs/introduction')}>
+                금융상품분석
+              </Link>
+              <Link
+                className={styles.indexCtasGetStartedButton}
+                to={useBaseUrl('docs/introduction')}>
+                금융용어사전
+              </Link>
+            </div>
           </div>
         </div>
-      </header>
-      <main>
-        {features && features.length && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
+        <div className={styles.section}>
+          <div className="container text--center margin-bottom--xl">
+            <div className="row">
+              <div className="col">
+                <img
+                  className={styles.featureImage}
+                  alt="Powered by MDX"
+                  src={useBaseUrl('img/undraw_typewriter.svg')}
+                />
+                <h2 className={classnames(styles.featureHeading)}>
+                  Powered by Markdown
+                </h2>
+                <p className="padding-horiz--md">
+                  Save time and focus on your project's documentation. Simply
+                  write docs and blog posts with Markdown/MDX and Docusaurus
+                  will publish a set of static HTML files ready to serve. You
+                  can even embed JSX components into your Markdown thanks to
+                  MDX.
+                </p>
+              </div>
+              <div className="col">
+                <img
+                  alt="Built Using React"
+                  className={styles.featureImage}
+                  src={useBaseUrl('img/undraw_react.svg')}
+                />
+                <h2 className={classnames(styles.featureHeading)}>
+                  Built Using React
+                </h2>
+                <p className="padding-horiz--md">
+                  Extend or customize your project's layout by reusing React.
+                  Docusaurus can be extended while reusing the same header and
+                  footer.
+                </p>
+              </div>
+              <div className="col">
+                <img
+                  alt="Ready for Translations"
+                  className={styles.featureImage}
+                  src={useBaseUrl('img/undraw_around_the_world.svg')}
+                />
+                <h2 className={classnames(styles.featureHeading)}>
+                  Ready for Translations
+                </h2>
+                <p className="padding-horiz--md">
+                  Localization comes pre-configured. Use Crowdin to translate
+                  your docs into over 70 languages.
+                </p>
               </div>
             </div>
-          </section>
-        )}
+          </div>
+          <div className="container text--center">
+            <div className="row">
+              <div className="col col--4 col--offset-2">
+                <img
+                  alt="Document Versioning"
+                  className={styles.featureImage}
+                  src={useBaseUrl('img/undraw_version_control.svg')}
+                />
+                <h2 className={classnames(styles.featureHeading)}>
+                  Document Versioning
+                </h2>
+                <p className="padding-horiz--md">
+                  Support users on all versions of your project. Document
+                  versioning helps you keep documentation in sync with project
+                  releases.
+                </p>
+              </div>
+              <div className="col col--4">
+                <img
+                  alt="Document Search"
+                  className={styles.featureImage}
+                  src={useBaseUrl('img/undraw_algolia.svg')}
+                />
+                <h2 className={classnames(styles.featureHeading)}>
+                  Content Search
+                </h2>
+                <p className="padding-horiz--md">
+                  Make it easy for your community to find what they need in your
+                  documentation. We proudly support Algolia documentation
+                  search.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     </Layout>
   );
