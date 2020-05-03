@@ -23,7 +23,7 @@ function Home() {
         <div className={styles.hero}>
           <div className={styles.heroInner}>
             <img
-              alt="Docusaurus with Keytar"
+              alt="FinProduct Logo"
               className={styles.heroLogo}
               src={useBaseUrl('img/FP_logo.png')}
             />
@@ -42,17 +42,17 @@ function Home() {
             <div className={styles.indexCtas}>
               <Link
                 className={styles.indexCtasGetStartedButton}
-                to={useBaseUrl('docs/introduction')}>
+                to={useBaseUrl('docs/doc1')}>
                 금융상품검색
               </Link>
               <Link
                 className={styles.indexCtasGetStartedButton}
-                to={useBaseUrl('docs/introduction')}>
+                to={useBaseUrl('blog')}>
                 금융상품분석
               </Link>
               <Link
                 className={styles.indexCtasGetStartedButton}
-                to={useBaseUrl('docs/introduction')}>
+                to={useBaseUrl('blog')}>
                 금융용어사전
               </Link>
             </div>
