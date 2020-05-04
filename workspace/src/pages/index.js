@@ -63,29 +63,12 @@ function Home() {
             <div className="row">
               <div className="col">
                 <img
-                  className={styles.featureImage}
-                  alt="Powered by MDX"
-                  src={useBaseUrl('img/undraw_typewriter.svg')}
-                />
-                <h2 className={classnames(styles.featureHeading)}>
-                  Powered by Markdown
-                </h2>
-                <p className="padding-horiz--md">
-                  Save time and focus on your project's documentation. Simply
-                  write docs and blog posts with Markdown/MDX and Docusaurus
-                  will publish a set of static HTML files ready to serve. You
-                  can even embed JSX components into your Markdown thanks to
-                  MDX.
-                </p>
-              </div>
-              <div className="col">
-                <img
-                  alt="Built Using React"
+                  alt="금융상품검색"
                   className={styles.featureImage}
                   src={useBaseUrl('img/undraw_react.svg')}
                 />
                 <h2 className={classnames(styles.featureHeading)}>
-                  Built Using React
+                  금융상품검색
                 </h2>
                 <p className="padding-horiz--md">
                   Extend or customize your project's layout by reusing React.
@@ -95,12 +78,26 @@ function Home() {
               </div>
               <div className="col">
                 <img
-                  alt="Ready for Translations"
+                  alt="금융상품분석"
                   className={styles.featureImage}
                   src={useBaseUrl('img/undraw_around_the_world.svg')}
                 />
                 <h2 className={classnames(styles.featureHeading)}>
-                  Ready for Translations
+                  금융상품분석
+                </h2>
+                <p className="padding-horiz--md">
+                  Localization comes pre-configured. Use Crowdin to translate
+                  your docs into over 70 languages.
+                </p>
+              </div>
+              <div className="col">
+                <img
+                  alt="금융용어사전"
+                  className={styles.featureImage}
+                  src={useBaseUrl('img/undraw_around_the_world.svg')}
+                />
+                <h2 className={classnames(styles.featureHeading)}>
+                  금융용어사전
                 </h2>
                 <p className="padding-horiz--md">
                   Localization comes pre-configured. Use Crowdin to translate
@@ -113,17 +110,15 @@ function Home() {
             <div className="row">
               <div className="col col--4 col--offset-2">
                 <img
-                  alt="Document Versioning"
                   className={styles.featureImage}
-                  src={useBaseUrl('img/undraw_version_control.svg')}
+                  alt="Powered by 상품팩토리"
+                  src={useBaseUrl('img/bxpf.png')}
                 />
                 <h2 className={classnames(styles.featureHeading)}>
-                  Document Versioning
+                  Powered by 상품팩토리
                 </h2>
                 <p className="padding-horiz--md">
-                  Support users on all versions of your project. Document
-                  versioning helps you keep documentation in sync with project
-                  releases.
+                  금융상품의 정보와 공정을 표준화하고 다양한 유형의 상품을 신속하게 등록하고 검색할 수 있는 강력한 상품관리 시스템을 사용하고 있습니다.
                 </p>
               </div>
               <div className="col col--4">
