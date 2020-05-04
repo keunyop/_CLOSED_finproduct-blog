@@ -37,45 +37,49 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'FinProduct',
           items: [
             {
-              label: 'Style Guide',
+              label: '금융상품검색',
               to: 'docs/doc1',
             },
             {
-              label: 'Second Doc',
+              label: '금융상품분석',
+              to: 'blog',
+            },
+            {
+              label: '금융용어사전',
               to: 'docs/doc2',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Blog',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: '최고의 적금 TOP 10',
+              to: 'blog/2020/03/31/2020년3월최고의적금TOP10',
             },
           ],
         },
         {
-          title: 'Social',
+          title: 'Community & Legal',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Feedback',
+              to: 'docs/doc2',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'About',
+              to: 'docs/doc2',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Privacy',
+              to: 'docs/doc2',
+            },
+            {
+              label: 'Terms',
+              to: 'docs/doc2',
             },
           ],
         },
