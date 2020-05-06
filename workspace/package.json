@@ -9,6 +9,7 @@
     "deploy": "docusaurus deploy"
   },
   "dependencies": {
+    "@babel/core": "^7.9.6",
     "@docusaurus/core": "^2.0.0-alpha.43",
     "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.39",
     "@docusaurus/preset-classic": "^2.0.0-alpha.43",

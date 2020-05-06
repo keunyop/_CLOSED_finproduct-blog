@@ -28,9 +28,9 @@ module.exports = {
         src: 'img/FP_logo.svg',
       },
       links: [
-        { to: 'docs/doc1', label: '금융상품검색', position: 'left' },
+        // { to: 'docs/doc1', label: '금융상품검색', position: 'left' },
         { to: 'blog', label: '금융상품분석', position: 'left' },
-        { to: 'dictionary', label: '금융용어사전', position: 'left' },
+        // { to: 'dictionary', label: '금융용어사전', position: 'left' },
       ],
     },
     footer: {
@@ -39,18 +39,18 @@ module.exports = {
         {
           title: 'FinProduct',
           items: [
-            {
-              label: '금융상품검색',
-              to: 'docs/doc1',
-            },
+            // {
+            //   label: '금융상품검색',
+            //   to: 'docs/doc1',
+            // },
             {
               label: '금융상품분석',
               to: 'blog',
             },
-            {
-              label: '금융용어사전',
-              to: 'docs/doc2',
-            },
+            // {
+            //   label: '금융용어사전',
+            //   to: 'docs/doc2',
+            // },
           ],
         },
         {
@@ -62,27 +62,27 @@ module.exports = {
             },
           ],
         },
-        {
-          title: 'Community & Legal',
-          items: [
-            {
-              label: 'Feedback',
-              to: 'docs/doc2',
-            },
-            {
-              label: 'About',
-              to: 'docs/doc2',
-            },
-            {
-              label: 'Privacy',
-              to: 'docs/doc2',
-            },
-            {
-              label: 'Terms',
-              to: 'docs/doc2',
-            },
-          ],
-        },
+        // {
+        //   title: 'Community & Legal',
+        //   items: [
+        //     {
+        //       label: 'Feedback',
+        //       to: 'docs/doc2',
+        //     },
+        //     {
+        //       label: 'About',
+        //       to: 'docs/doc2',
+        //     },
+        //     {
+        //       label: 'Privacy',
+        //       to: 'docs/doc2',
+        //     },
+        //     {
+        //       label: 'Terms',
+        //       to: 'docs/doc2',
+        //     },
+        //   ],
+        // },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} FinProduct`,
     },

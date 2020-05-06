@@ -40,26 +40,26 @@ function Home() {
               {tagline}
             </p>
             <div className={styles.indexCtas}>
-              <Link
+              {/* <Link
                 className={styles.indexCtasGetStartedButton}
                 to={useBaseUrl('docs/doc1')}>
                 금융상품검색
-              </Link>
+              </Link> */}
               <Link
                 className={styles.indexCtasGetStartedButton}
                 to={useBaseUrl('blog')}>
                 금융상품분석
               </Link>
-              <Link
+              {/* <Link
                 className={styles.indexCtasGetStartedButton}
                 to={useBaseUrl('blog')}>
                 금융용어사전
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
         <div className={styles.section}>
-          <div className="container text--center margin-bottom--xl">
+          {/* <div className="container text--center margin-bottom--xl">
             <div className="row">
               <div className="col">
                 <img
@@ -105,10 +105,24 @@ function Home() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="container text--center">
             <div className="row">
               <div className="col col--4 col--offset-2">
+                <img
+                  alt="금융상품분석"
+                  className={styles.featureImage}
+                  src={useBaseUrl('img/undraw_around_the_world.svg')}
+                />
+                <h2 className={classnames(styles.featureHeading)}>
+                  금융상품분석
+                </h2>
+                <p className="padding-horiz--md">
+                  Localization comes pre-configured. Use Crowdin to translate
+                  your docs into over 70 languages.
+                </p>
+              </div>
+              <div className="col col--4">
                 <img
                   className={styles.featureImage}
                   alt="Powered by 상품팩토리"
@@ -119,21 +133,6 @@ function Home() {
                 </h2>
                 <p className="padding-horiz--md">
                   금융상품의 정보와 공정을 표준화하고 다양한 유형의 상품을 신속하게 등록하고 검색할 수 있는 강력한 상품관리 시스템을 사용하고 있습니다.
-                </p>
-              </div>
-              <div className="col col--4">
-                <img
-                  alt="Document Search"
-                  className={styles.featureImage}
-                  src={useBaseUrl('img/undraw_algolia.svg')}
-                />
-                <h2 className={classnames(styles.featureHeading)}>
-                  Content Search
-                </h2>
-                <p className="padding-horiz--md">
-                  Make it easy for your community to find what they need in your
-                  documentation. We proudly support Algolia documentation
-                  search.
                 </p>
               </div>
             </div>
