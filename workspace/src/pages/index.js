@@ -40,89 +40,84 @@ function Home() {
               {tagline}
             </p>
             <div className={styles.indexCtas}>
-              {/* <Link
+              <Link
                 className={styles.indexCtasGetStartedButton}
                 to={useBaseUrl('docs/doc1')}>
-                금융상품검색
-              </Link> */}
+                은행별상품리뷰
+              </Link>
               <Link
                 className={styles.indexCtasGetStartedButton}
                 to={useBaseUrl('blog')}>
-                금융상품분석
+                금융블로그
               </Link>
-              {/* <Link
+              <Link
                 className={styles.indexCtasGetStartedButton}
                 to={useBaseUrl('blog')}>
                 금융용어사전
-              </Link> */}
+              </Link>
             </div>
           </div>
         </div>
         <div className={styles.section}>
-          {/* <div className="container text--center margin-bottom--xl">
+          <div className="container text--center margin-bottom--xl">
             <div className="row">
               <div className="col">
                 <img
-                  alt="금융상품검색"
+                  alt="은행별상품리뷰"
                   className={styles.featureImage}
-                  src={useBaseUrl('img/undraw_react.svg')}
+                  src={useBaseUrl('img/review.jpg')}
                 />
                 <h2 className={classnames(styles.featureHeading)}>
-                  금융상품검색
+                  은행별상품리뷰
                 </h2>
                 <p className="padding-horiz--md">
-                  Extend or customize your project's layout by reusing React.
-                  Docusaurus can be extended while reusing the same header and
-                  footer.
+                  핀프로덕트의 은행별 금융상품 리뷰를 통해 여러분의 상황에 가장 알맞은 최적의 상품을 선택하세요.
                 </p>
               </div>
               <div className="col">
                 <img
-                  alt="금융상품분석"
+                  alt="금융블로그"
                   className={styles.featureImage}
-                  src={useBaseUrl('img/undraw_around_the_world.svg')}
+                  src={useBaseUrl('img/blog.jpg')}
                 />
                 <h2 className={classnames(styles.featureHeading)}>
-                  금융상품분석
+                  금융블로그
                 </h2>
                 <p className="padding-horiz--md">
-                  Localization comes pre-configured. Use Crowdin to translate
-                  your docs into over 70 languages.
+                  핀프로덕트 금융 전문가의 금융상품 분석 블로그를 통해 보다 현명한 금융상품 소비를 하세요. 적금, 예금, 대출 등 개인 금융 상품을 주제로 합니다.
                 </p>
               </div>
               <div className="col">
                 <img
                   alt="금융용어사전"
                   className={styles.featureImage}
-                  src={useBaseUrl('img/undraw_around_the_world.svg')}
+                  src={useBaseUrl('img/dictionary.jpg')}
                 />
                 <h2 className={classnames(styles.featureHeading)}>
                   금융용어사전
                 </h2>
                 <p className="padding-horiz--md">
-                  Localization comes pre-configured. Use Crowdin to translate
-                  your docs into over 70 languages.
+                  많이 어려운 금융용어를 쉽게 찾고 이해할 수 있도록 금융거래 표준 약관 등에서 사용되는 금융용어를 쉽게 풀어서 알려드립니다.
                 </p>
               </div>
             </div>
-          </div> */}
+          </div>
           <div className="container text--center">
             <div className="row">
               <div className="col col--4 col--offset-2">
                 <img
-                  alt="금융상품분석"
+                  alt="Powered by 상품팩토리"
                   className={styles.featureImage}
-                  src={useBaseUrl('img/undraw_around_the_world.svg')}
+                  src={useBaseUrl('img/factory.jpg')}
                 />
                 <h2 className={classnames(styles.featureHeading)}>
-                  금융상품분석
+                  Powered by 상품팩토리
                 </h2>
                 <p className="padding-horiz--md">
-                  Localization comes pre-configured. Use Crowdin to translate
-                  your docs into over 70 languages.
+                  금융상품의 정보와 공정을 표준화하고 다양한 유형의 상품을 신속하게 등록하고 검색할 수 있는 강력한 상품관리 시스템을 사용하고 있습니다.
                 </p>
               </div>
-              <div className="col col--4">
+              {/* <div className="col col--4">
                 <img
                   className={styles.featureImage}
                   alt="Powered by 상품팩토리"
@@ -134,12 +129,14 @@ function Home() {
                 <p className="padding-horiz--md">
                   금융상품의 정보와 공정을 표준화하고 다양한 유형의 상품을 신속하게 등록하고 검색할 수 있는 강력한 상품관리 시스템을 사용하고 있습니다.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
+        <div className={styles.textAlignRight}><a href="https://www.freepik.com/free-photos-vectors">Vector created by stories - www.freepik.com</a></div>
       </main>
     </Layout>
+
   );
 }
 

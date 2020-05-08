@@ -1,4 +1,4 @@
- .section {
+.section {
   padding: 72px 0;
 }
 
@@ -127,6 +127,10 @@
   overflow: hidden;
 }
 
+.textAlignRight {
+  text-align: right;
+}
+
 @media only screen and (max-width: 768px) {
   .hero {
     padding-left: 20px;
@@ -164,7 +168,7 @@
 
   .indexCtasGetStartedButton {
     margin-top: 15px;
-    width:100%;
+    width: 100%;
     text-align: center;
     font-size: 20px;
   }
