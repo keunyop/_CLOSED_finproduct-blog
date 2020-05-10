@@ -28,7 +28,7 @@ module.exports = {
         src: 'img/FP_logo.svg',
       },
       links: [
-        { to: 'docs/doc1', label: '은행별상품리뷰', position: 'left' },
+        { to: 'docs/review/tier1/intro', label: '은행별상품리뷰', position: 'left' },
         { to: 'blog', label: '금융블로그', position: 'left' },
         { to: 'dictionary', label: '금융용어사전', position: 'left' },
       ],
@@ -92,7 +92,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./tier1-sidebars.js'),
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
         },
