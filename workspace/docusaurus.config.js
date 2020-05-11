@@ -7,7 +7,7 @@ module.exports = {
   url: 'https://keunyop.github.io/finproduct-blog',
   favicon: 'img/FP_logo.ico',
   customFields: {
-    description: '핀프로덕트에서 다양한 옵션을 쉽게 비교하여 최고의 금융 상품을 찾으세요.',
+    description: '핀PD에서 다양한 옵션을 쉽게 비교하여 최고의 금융 상품을 찾으세요.',
   },
   plugins: [
     [
@@ -22,9 +22,9 @@ module.exports = {
   ],
   themeConfig: {
     navbar: {
-      title: '핀프로덕트',
+      title: '핀PD',
       logo: {
-        alt: 'FinProduct',
+        alt: '핀PD',
         src: 'img/FP_logo.svg',
       },
       links: [
@@ -37,7 +37,7 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'FinProduct',
+          title: '핀PD',
           items: [
             {
               label: '은행별상품리뷰',
@@ -84,7 +84,7 @@ module.exports = {
         //   ],
         // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} FinProduct`,
+      copyright: `Copyright © ${new Date().getFullYear()} 핀PD`,
     },
   },
   presets: [

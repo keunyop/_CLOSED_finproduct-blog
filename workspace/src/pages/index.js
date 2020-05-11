@@ -23,7 +23,7 @@ function Home() {
         <div className={styles.hero}>
           <div className={styles.heroInner}>
             <img
-              alt="FinProduct Logo"
+              alt="핀PD Logo"
               className={styles.heroLogo}
               src={useBaseUrl('img/FP_logo.png')}
             />
@@ -33,8 +33,8 @@ function Home() {
             </h1>
             <h1 className={styles.heroProjectTagline}>
               +
-              <span className={styles.heroProjectKeywords}>프로덕트</span>
-              (상품)
+              <span className={styles.heroProjectKeywords}>PD</span>
+              (Product, 상품)
             </h1>
             <p className={styles.heroProjectSubTitle}>
               {tagline}
@@ -71,7 +71,7 @@ function Home() {
                   은행별상품리뷰
                 </h2>
                 <p className="padding-horiz--md">
-                  핀프로덕트의 은행별 금융상품 리뷰를 통해 여러분의 상황에 가장 알맞은 최적의 상품을 선택하세요.
+                  핀PD의 각 은행별 금융상품 리뷰를 보시고 여러분의 상황에 가장 알맞은 최적의 상품을 선택하세요.
                 </p>
               </div>
               <div className="col">
@@ -84,7 +84,7 @@ function Home() {
                   금융블로그
                 </h2>
                 <p className="padding-horiz--md">
-                  핀프로덕트 금융 전문가의 금융상품 분석 블로그를 통해 보다 현명한 금융상품 소비를 하세요. 적금, 예금, 대출 등 개인 금융 상품을 주제로 합니다.
+                  금융 전문가의 금융상품 분석 블로그를 통해 보다 현명한 금융상품 소비를 하세요. 적금, 예금, 대출 등 개인 금융 상품을 주제로 합니다.
                 </p>
               </div>
               <div className="col">

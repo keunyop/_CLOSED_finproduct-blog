@@ -1,6 +1,6 @@
 ---
 id: intro
-title: 케이뱅크 은행소개
+title: 케이뱅크
 sidebar_label: 은행소개
 ---
 
