@@ -6,16 +6,31 @@
  */
 
 module.exports = {
-  금융1상품리뷰: {
-    은행별상품리뷰: ['review/tier1/intro'],
-    케이뱅크: ['review/tier1/kbank/intro',
+  금융1상품보기: {
+    은행별상품보기: ['review/tier1/intro'],
+    케이뱅크: [
+      'review/tier1/kbank/intro',
       {
-        수신: [
-          'review/tier1/kbank/deposit/deposit1'
+        예금: [
+          {
+            입출금통장: [
+              'review/tier1/kbank/deposit/듀얼K입출금통장'
+            ],
+          },
+          {
+            정기예금: [
+              'review/tier1/kbank/deposit/듀얼K입출금통장'
+            ],
+          },
+          {
+            자유적금: [
+              'review/tier1/kbank/deposit/듀얼K입출금통장'
+            ],
+          },
         ],
       },
       {
-        여신: [
+        대출: [
           'review/tier1/kbank/loan/loan1'
         ],
       },

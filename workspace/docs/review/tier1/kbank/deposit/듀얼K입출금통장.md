@@ -1,7 +1,7 @@
 ---
-id: deposit1
-title: deposit1
-sidebar_label: deposit1
+id: 듀얼K입출금통장
+title: 듀얼K 입출금통장
+sidebar_label: 듀얼K 입출금통장
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

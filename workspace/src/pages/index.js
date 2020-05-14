@@ -43,7 +43,7 @@ function Home() {
               <Link
                 className={styles.indexCtasGetStartedButton}
                 to={useBaseUrl('docs/doc1')}>
-                은행별상품리뷰
+                은행별상품보기
               </Link>
               <Link
                 className={styles.indexCtasGetStartedButton}
@@ -63,12 +63,12 @@ function Home() {
             <div className="row">
               <div className="col">
                 <img
-                  alt="은행별상품리뷰"
+                  alt="은행별상품보기"
                   className={styles.featureImage}
                   src={useBaseUrl('img/review.jpg')}
                 />
                 <h2 className={classnames(styles.featureHeading)}>
-                  은행별상품리뷰
+                  은행별상품보기
                 </h2>
                 <p className="padding-horiz--md">
                   핀PD의 각 은행별 금융상품 리뷰를 보시고 여러분의 상황에 가장 알맞은 최적의 상품을 선택하세요.
