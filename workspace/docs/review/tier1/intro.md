@@ -84,7 +84,7 @@ import CardGrid from "@site/src/components/CardGrid"
 
   [![](/assets/icons/using-saleor.svg) **카카오뱅크** 리뷰 상품 0개](dashboard/index.mdx)
 
-  [![](/assets/icons/using-saleor.svg) **케이뱅크** 리뷰 상품 0개](dashboard/index.mdx)
+  [![](/assets/icons/using-saleor.svg) **케이뱅크** 리뷰 상품 0개](kbank/intro)
 
   </CardGrid>
 
