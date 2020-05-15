@@ -8,6 +8,18 @@
 module.exports = {
   금융1상품보기: {
     은행별상품보기: ['review/tier1/intro'],
+    우리은행: [
+      'review/tier1/woori/intro',
+      {
+        예금: [
+          {
+            목돈모으기상품: [
+              'review/tier1/woori/deposit/우리SUPER주거래정기적금'
+            ],
+          }
+        ],
+      }
+    ],
     케이뱅크: [
       'review/tier1/kbank/intro',
       {
@@ -16,24 +28,9 @@ module.exports = {
             입출금통장: [
               'review/tier1/kbank/deposit/듀얼K입출금통장'
             ],
-          },
-          {
-            정기예금: [
-              'review/tier1/kbank/deposit/듀얼K입출금통장'
-            ],
-          },
-          {
-            자유적금: [
-              'review/tier1/kbank/deposit/듀얼K입출금통장'
-            ],
-          },
-        ],
-      },
-      {
-        대출: [
-          'review/tier1/kbank/loan/loan1'
-        ],
-      },
+          }
+        ]
+      }
     ]
   },
 };

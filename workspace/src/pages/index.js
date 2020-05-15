@@ -42,7 +42,7 @@ function Home() {
             <div className={styles.indexCtas}>
               <Link
                 className={styles.indexCtasGetStartedButton}
-                to={useBaseUrl('docs/doc1')}>
+                to={useBaseUrl('docs/review/tier1/intro')}>
                 은행별상품보기
               </Link>
               <Link
