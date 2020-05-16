@@ -91,7 +91,7 @@ import CardGrid from "@site/src/components/CardGrid"
 ### ㅎ
   <CardGrid home>
 
-  [![](/assets/icons/using-saleor.svg) **KEB하나은행** 리뷰 상품 0개](dashboard/index.mdx)
+  [![](/assets/icons/using-saleor.svg) **KEB하나은행** 리뷰 상품 0개](hana/intro)
 
   </CardGrid>
 
