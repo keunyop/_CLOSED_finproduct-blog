@@ -6,8 +6,7 @@ sidebar_label: 은행소개
 
 import CardGrid from "@site/src/components/CardGrid"
 
-
-To serve as an example page when styling markdown based Docusaurus sites.
+![](/img/bank/woori_medium.png)
 
 ## 예금 · 적금
 
@@ -16,7 +15,7 @@ To serve as an example page when styling markdown based Docusaurus sites.
 
   <CardGrid>
 
-  [**우리 SUPER주거래 정기적금** 연 1.4 ~ 2.9%](deposit/우리SUPER주거래정기적금)
+  [**우리 SUPER주거래 정기적금** 연 1.2 ~ 2.7%](deposit/우리SUPER주거래정기적금)
 
   </CardGrid>
 

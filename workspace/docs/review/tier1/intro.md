@@ -64,7 +64,7 @@ import CardGrid from "@site/src/components/CardGrid"
 ### ㅇ
   <CardGrid home>
 
-  [![](/assets/icons/using-saleor.svg) **우리은행** 리뷰 상품 1개](woori/intro)
+  [![](/img/bank/woori_icon.png) **우리은행** 리뷰 상품 1개](woori/intro)
 
   [![](/assets/icons/using-saleor.svg) **우체국예금** 리뷰 상품 0개](dashboard/index.mdx)
 
