@@ -1,14 +1,14 @@
 ---
 id: intro
 title: 우리은행
-sidebar_label: 은행소개
+sidebar_label: 상품목록
 ---
 
 import CardGrid from "@site/src/components/CardGrid"
 
-![](/img/bank/woori_medium.png)
+<a href="https://www.wooribank.com" target="_blank"> <img src="/img/bank/woori_medium.png" alt="우리은행" /> </a>
 
-## 예금 · 적금
+### 예금 · 적금
 
 #### 목돈모으기상품
 

@@ -17,4 +17,8 @@ sidebar_label: 우리 SUPER주거래 정기적금
 24개월 | 1.3% | 1.3% | **1.3 ~ 2.6%**
 36개월 | 1.4% | 1.3% | **1.4 ~ 2.7%**
 
+
+<a href="https://spot.wooribank.com/pot/Dream?withyou=PODEP0019&cc=c007095:c009166;c012263:c012399&PRD_CD=P010000109&PRD_YN=Y" target="_blank">은행 상품 이동</a>
+
+
 ---
