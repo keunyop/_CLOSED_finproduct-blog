@@ -16,7 +16,7 @@ import CardGrid from "@site/src/components/CardGrid"
 ## ㅋ
   <CardGrid home>
 
-  [![](/assets/icons/using-saleor.svg) **케이뱅크** 리뷰 상품 0개](kbank/intro)
+  [![](/img/bank/kbank_icon.png) **케이뱅크** 리뷰 상품 0개](kbank/intro)
 
   </CardGrid>
 
