@@ -4,7 +4,7 @@ module.exports = {
   organizationName: 'keunyop', // Usually your GitHub org/user name.
   projectName: 'finproduct-blog', // Usually your repo name.
   url: 'https://keunyop.github.io/finproduct-blog', // Url to your site with no trailing slash
-  baseUrl: '/workspace', // Base directory of your site relative to your repo
+  baseUrl: '/', // Base directory of your site relative to your repo
   favicon: 'img/FP_logo.ico',
   customFields: {
     description: '핀PD에서 다양한 옵션을 쉽게 비교하여 최고의 금융 상품을 찾으세요.',
