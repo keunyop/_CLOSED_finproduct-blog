@@ -30,7 +30,7 @@ module.exports = {
       links: [
         { to: 'docs/review/tier1/intro', label: '은행별상품보기', position: 'left' },
         { to: 'blog', label: '금융블로그', position: 'left' },
-        { to: 'dictionary', label: '금융용어사전', position: 'left' },
+        { to: 'docs/dictionary', label: '금융용어사전', position: 'left' },
       ],
     },
     footer: {
@@ -93,8 +93,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./tier1-sidebars.js'),
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
