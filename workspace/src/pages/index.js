@@ -42,6 +42,11 @@ function Home() {
             <div className={styles.indexCtas}>
               <Link
                 className={styles.indexCtasGetStartedButton}
+                to={useBaseUrl('')}>
+                금융상품비교검색
+              </Link>
+              <Link
+                className={styles.indexCtasGetStartedButton}
                 to={useBaseUrl('docs/review/tier1/intro')}>
                 은행별상품보기
               </Link>
@@ -61,6 +66,18 @@ function Home() {
         <div className={styles.section}>
           <div className="container text--center margin-bottom--xl">
             <div className="row">
+              <div className="col">
+                <img
+                  alt="금융상품비교검색"
+                  className={styles.featureImage}
+                  src={useBaseUrl('')}
+                />
+                <h2 className={classnames(styles.featureHeading)}>
+                  금융상품비교검색
+                </h2>
+                <p className="padding-horiz--md">
+                </p>
+              </div>
               <div className="col">
                 <img
                   alt="은행별상품보기"
@@ -87,7 +104,11 @@ function Home() {
                   금융 전문가의 금융상품 분석 블로그를 통해 보다 현명한 금융상품 소비를 하세요. 적금, 예금, 대출 등 개인 금융 상품을 주제로 합니다.
                 </p>
               </div>
-              <div className="col">
+            </div>
+          </div>
+          <div className="container text--center">
+            <div className="row">
+              <div className="col col--4 col--offset-2">
                 <img
                   alt="금융용어사전"
                   className={styles.featureImage}
@@ -100,11 +121,7 @@ function Home() {
                   많이 어려운 금융용어를 쉽게 찾고 이해할 수 있도록 금융거래 표준 약관 등에서 사용되는 금융용어를 쉽게 풀어서 알려드립니다.
                 </p>
               </div>
-            </div>
-          </div>
-          <div className="container text--center">
-            <div className="row">
-              <div className="col col--4 col--offset-2">
+              <div className="col col--4">
                 <img
                   alt="Powered by 상품팩토리"
                   className={styles.featureImage}
