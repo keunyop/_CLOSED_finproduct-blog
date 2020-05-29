@@ -70,12 +70,13 @@ function Home() {
                 <img
                   alt="금융상품비교검색"
                   className={styles.featureImage}
-                  src={useBaseUrl('')}
+                  src={useBaseUrl('img/search.jpg')}
                 />
                 <h2 className={classnames(styles.featureHeading)}>
                   금융상품비교검색
                 </h2>
                 <p className="padding-horiz--md">
+                  금융상품의 수많은 어려운 조건을 쉽게 조합할 수 있는 더 스마트 한 금융 상품 찾기. 예금, 적금, 대출 등을 비교 검색하고 더 나은 결정을 하세요.
                 </p>
               </div>
               <div className="col">
