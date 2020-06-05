@@ -112,10 +112,11 @@
   border-radius: 8px;
   border-width: 2px;
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
-  padding: 18px 36px;
-  margin-right: 20px;
+  padding: 15px 30px;
+  margin-top: 15px;
+  margin-right: 15px;
 }
 
 .indexCtasGitHubButtonWrapper {

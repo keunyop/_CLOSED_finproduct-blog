@@ -40,7 +40,7 @@ function Home() {
             <div className={styles.indexCtas}>
               <Link
                 className={styles.indexCtasGetStartedButton}
-                to={useBaseUrl('')}>
+                to={useBaseUrl('docs/review/tier1/intro')}>
                 금융상품비교검색
               </Link>
               <Link
