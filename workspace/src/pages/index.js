@@ -5,7 +5,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import classnames from 'classnames';
 
-import {DisqusThread} from '../components';
+import { DisqusThread } from '../components';
 import styles from './styles.module.css';
 
 function Home() {
@@ -150,9 +150,9 @@ function Home() {
           </div>
         </div>
         {/* <div className={styles.textAlignRight}><a href="https://www.freepik.com/free-photos-vectors">Vector created by stories - www.freepik.com</a></div> */}
-        <br/>
-        <CommentsSection/>
-        <br/>
+        <br />
+        <CommentsSection />
+        <br />
       </main>
     </Layout>
 
@@ -161,7 +161,7 @@ function Home() {
 
 const CommentsSection = () => (
   <div className="container">
-    <DisqusThread/>
+    <DisqusThread />
   </div>
 );
 
