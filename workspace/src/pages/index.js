@@ -38,11 +38,11 @@ function Home() {
               {tagline}
             </p>
             <div className={styles.indexCtas}>
-              <Link
+              {/* <Link
                 className={styles.indexCtasGetStartedButton}
                 to={useBaseUrl('docs/review/tier1/intro')}>
                 금융상품비교검색
-              </Link>
+              </Link> */}
               <Link
                 className={styles.indexCtasGetStartedButton}
                 to={useBaseUrl('docs/review/tier1/intro')}>
