@@ -1,2 +1,3 @@
+@deprecated
 # finproduct-blog
-_금융상품 비교분석 블로그_
+금융상품 비교분석 블로그
